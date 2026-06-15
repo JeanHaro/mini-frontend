@@ -11,7 +11,7 @@ export function bootstrap ( components: any[] ): void {
     for ( const Component of components ) {
         // 1. Lee metadata del componente
         const metadata = Reflect.getMetadata( COMPONENT_KEY, Component );
-        if (!metadata) continue; // Si no hay continua
+        if (!metadata) continue; // Si no hay continua con el siguiente valor del bucle
 
         // 2. Busca el elemento en el DOM
         const element = document.querySelector(metadata.selector);
