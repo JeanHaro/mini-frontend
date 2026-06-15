@@ -1,0 +1,29 @@
+{
+  "name": "mini-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.1.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/reflect-metadata": "^0.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
